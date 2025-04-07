@@ -1,14 +1,14 @@
 const INFINITE = "Infinite";
-const TIRES = "Tires";
-const INFINITE_TIRES = `${INFINITE}${TIRES}`;
+const TIERS = "Tiers";
+const INFINITE_TIERS = `${INFINITE}${TIERS}`;
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log(INFINITE_TIRES);
+    console.log(INFINITE_TIERS);
   } else if (i % 3 === 0) {
     console.log(INFINITE);
   } else if (i % 5 === 0) {
-    console.log(TIRES);
+    console.log(TIERS);
   } else {
     console.log(i);
   }
